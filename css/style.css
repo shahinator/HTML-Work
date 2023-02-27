@@ -1,0 +1,174 @@
+/* 
+Indexing 
+-------------
+1. Basic Typhography Styling
+2. Header Styling
+3. Menu Styling
+4. Breadcumb Styling
+5. Main Content Area Styling
+6. Footer Area Styling
+*/
+/* 1. Basic Typhography setting */
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,
+ol{
+    margin: 15px;
+}
+h1,
+h2,
+h3{
+    display: block;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dotted #777777;
+    font-weight: 800;
+}
+h1{
+
+    font-size: 48px;
+}
+h2{
+    font-size: 36px;
+}
+h2{
+    font-size: 28px;
+}
+a{
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    transition: all .3s ease-in-out;
+}
+p{
+    margin: 15px 0;
+}
+a:hover{
+    color: #e9621f;
+    transition: all .3s ease-in-out;
+}
+.button{
+    background-color: #18a80b;
+    color: #ffffff;
+    transition: all .3s ease-in-out;
+    border-radius: 5px;
+    padding: 10px 30px;
+    display: inline-block;
+}
+.button:hover{
+    background-color: #dba41a;
+    transition: all .3s ease-in-out;
+    color: #ffffff;
+}
+body{
+    margin: 30px auto;
+    width: 1140px;
+    background: #777777;
+    font-size: 18px;
+    line-height: 1.6;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* 2. Header Stylying */
+header{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.logo a {
+    padding: 2px 60px;
+    text-align: left;
+    background: #061d2f;
+    color: #ffffff;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+/* 3. Menu Stylying */
+nav{
+    background-color: #18a80b;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;  
+}
+nav ul li a{  
+    display: block;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 30px;
+    transition: all .3s ease-in-out; 
+}
+nav ul li a.active,    
+nav ul li a:hover{    
+    background-color: #037e5b;
+    color: #ffffff;
+}
+/* 4. Breadcumb Styling */
+.breadcumb-area{
+    background: url(../images/breadcumb.jpg) no-repeat;
+    background-position: center center;
+    padding: 50px 0;
+}
+.breadcumb-area ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;  
+}
+.breadcumb-area ul li{
+    color: #ffffff; 
+    padding: 5px;
+
+}
+.breadcumb-area ul li a{
+    color: #ffffff; 
+}
+/* 5. Main Content Area Styling */
+.main-area{
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+}
+.content-area{
+    margin: 30px 0;
+}
+.inner-content{
+    display: flex;
+    justify-content: space-between; 
+}
+.inner-content ol{
+    margin-left: 30px;
+}
+.image{
+    transition: all .3s ease-in-out;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 15px;
+    margin: 15px 0;
+}
+.image img{
+    border-radius: 15px;
+    transition: all .5s ease-in-out;
+}
+.image p{
+    text-align: center;
+}
+.image:hover img{
+    transition: all .5s ease-in-out;
+    transform: scale(1.05);
+}
+/* 6. Footer Area Styling */
+footer{
+    background-color: #18a80b;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+}
