@@ -1,5 +1,5 @@
 <img src="icon.png" align="right" />
-# Simple HTML Template [![Awesome](https://prnt.sc/iFf8JHS1knX5)](https://shahinator.github.io/HTML-Work/index.html#readme)
+# Simple HTML Template
 > A curated list of Simple HTML Template READMEs
 
 This is very Simple HTML Template. I used only HTML, CSS and CSS3 Some Animation. I used here my custom layout. Just only for recap myself about HTML, CSS.
