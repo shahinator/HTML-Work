@@ -1,4 +1,3 @@
-<img src="https://prnt.sc/hxMBZyYY2iBa" align="right" />
 # Simple HTML Template
 > A curated list of Simple HTML Template READMEs
 
